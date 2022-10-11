@@ -1,7 +1,14 @@
 import React from 'react';
+import { useAuth } from '../helpers/auth';
 
 const ProfilePage = () => {
-  return <div>ProfilePage</div>;
+  const auth = useAuth();
+  return (
+    <>
+      <h1>Profile Page</h1>
+      <p>Welcome, {auth.user.username}</p>
+    </>
+  );
 };
 
 export default ProfilePage;
