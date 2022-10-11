@@ -1,5 +1,5 @@
 import React from 'react';
-import { useAuth } from '../helpers/auth';
+import { useAuth } from '../hooks/auth';
 
 const ProfilePage = () => {
   const auth = useAuth();

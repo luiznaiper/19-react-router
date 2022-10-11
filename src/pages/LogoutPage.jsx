@@ -1,5 +1,5 @@
 import React from 'react';
-import { useAuth } from '../helpers/auth.jsx';
+import { useAuth } from '../hooks/auth.jsx';
 
 const LogoutPage = () => {
   const auth = useAuth();

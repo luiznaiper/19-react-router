@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Menu from './components/Menu';
-import { AuthProvider } from './helpers/auth';
+import { AuthProvider } from './hooks/auth';
 import HomePage from './pages/HomePage';
 import BlogPage from './pages/BlogPage';
 import BlogPost from './pages/BlogPost';
