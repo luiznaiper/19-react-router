@@ -1,8 +1,9 @@
 import React from 'react';
-import { useAuth } from '../hooks/auth';
+import { useAuth } from '../hooks/useAuth';
 
 const ProfilePage = () => {
   const auth = useAuth();
+
   return (
     <>
       <h1>Profile Page</h1>
